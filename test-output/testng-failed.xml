@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg01.OrangeHrmLogin">
+      <class name="dependOn.DependOn">
         <methods>
-          <include name="login"/>
-          <include name="close"/>
+          <include name="search"/>
           <include name="open"/>
-          <include name="logo"/>
+          <include name="Advancesearch"/>
         </methods>
-      </class> <!-- TestNg01.OrangeHrmLogin -->
+      </class> <!-- dependOn.DependOn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
