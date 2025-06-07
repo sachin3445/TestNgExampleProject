@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-04T19:21:04 IST" name="Suite" finished-at="2025-06-04T19:21:04 IST" duration-ms="226">
+  <suite started-at="2025-06-06T18:48:38 IST" name="Suite" finished-at="2025-06-06T18:48:50 IST" duration-ms="11630">
     <groups>
-      <group name="Functional">
-        <method signature="payment.paymentByRupee()[pri:1, instance:groupingInTestng.payment@4c402120]" name="paymentByRupee" class="groupingInTestng.payment"/>
-        <method signature="payment.paymentByDollar()[pri:2, instance:groupingInTestng.payment@4c402120]" name="paymentByDollar" class="groupingInTestng.payment"/>
-      </group> <!-- Functional -->
-      <group name="Sanity">
-        <method signature="login.byGmail()[pri:1, instance:groupingInTestng.login@38425407]" name="byGmail" class="groupingInTestng.login"/>
-        <method signature="payment.paymentByRupee()[pri:1, instance:groupingInTestng.payment@4c402120]" name="paymentByRupee" class="groupingInTestng.payment"/>
-        <method signature="login.byFacebook()[pri:2, instance:groupingInTestng.login@38425407]" name="byFacebook" class="groupingInTestng.login"/>
-        <method signature="payment.paymentByDollar()[pri:2, instance:groupingInTestng.payment@4c402120]" name="paymentByDollar" class="groupingInTestng.payment"/>
-        <method signature="login.byAppleID()[pri:3, instance:groupingInTestng.login@38425407]" name="byAppleID" class="groupingInTestng.login"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="payment.paymentByRupee()[pri:1, instance:groupingInTestng.payment@4c402120]" name="paymentByRupee" class="groupingInTestng.payment"/>
-        <method signature="signup.signupByGmail()[pri:1, instance:groupingInTestng.signup@327514f]" name="signupByGmail" class="groupingInTestng.signup"/>
-        <method signature="payment.paymentByDollar()[pri:2, instance:groupingInTestng.payment@4c402120]" name="paymentByDollar" class="groupingInTestng.payment"/>
-        <method signature="signup.signupByFacebook()[pri:2, instance:groupingInTestng.signup@327514f]" name="signupByFacebook" class="groupingInTestng.signup"/>
-        <method signature="signup.signupByAppleAccount()[pri:3, instance:groupingInTestng.signup@327514f]" name="signupByAppleAccount" class="groupingInTestng.signup"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-06-04T19:21:04 IST" name="Test" finished-at="2025-06-04T19:21:04 IST" duration-ms="226">
-      <class name="groupingInTestng.signup">
-        <test-method signature="signupByGmail()[pri:1, instance:groupingInTestng.signup@327514f]" started-at="2025-06-04T19:21:04 IST" name="signupByGmail" finished-at="2025-06-04T19:21:04 IST" duration-ms="3" status="PASS">
+    <test started-at="2025-06-06T18:48:38 IST" name="pageObjectdemo" finished-at="2025-06-06T18:48:50 IST" duration-ms="11630">
+      <class name="PageObjectDemo.test_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PageObjectDemo.test_Login@bcec361]" started-at="2025-06-06T18:48:39 IST" name="setup" finished-at="2025-06-06T18:48:49 IST" duration-ms="10367" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signupByGmail -->
-        <test-method signature="signupByFacebook()[pri:2, instance:groupingInTestng.signup@327514f]" started-at="2025-06-04T19:21:04 IST" name="signupByFacebook" finished-at="2025-06-04T19:21:04 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:0, instance:PageObjectDemo.test_Login@bcec361]" started-at="2025-06-06T18:48:49 IST" name="testLogin" finished-at="2025-06-06T18:48:50 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signupByFacebook -->
-        <test-method signature="signupByAppleAccount()[pri:3, instance:groupingInTestng.signup@327514f]" started-at="2025-06-04T19:21:04 IST" name="signupByAppleAccount" finished-at="2025-06-04T19:21:04 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PageObjectDemo.test_Login@bcec361]" started-at="2025-06-06T18:48:50 IST" name="tearDown" finished-at="2025-06-06T18:48:50 IST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signupByAppleAccount -->
-      </class> <!-- groupingInTestng.signup -->
-      <class name="groupingInTestng.payment">
-        <test-method signature="paymentByRupee()[pri:1, instance:groupingInTestng.payment@4c402120]" started-at="2025-06-04T19:21:04 IST" name="paymentByRupee" finished-at="2025-06-04T19:21:04 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paymentByRupee -->
-        <test-method signature="paymentByDollar()[pri:2, instance:groupingInTestng.payment@4c402120]" started-at="2025-06-04T19:21:04 IST" name="paymentByDollar" finished-at="2025-06-04T19:21:04 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paymentByDollar -->
-      </class> <!-- groupingInTestng.payment -->
-      <class name="groupingInTestng.login">
-        <test-method signature="byGmail()[pri:1, instance:groupingInTestng.login@38425407]" started-at="2025-06-04T19:21:04 IST" name="byGmail" finished-at="2025-06-04T19:21:04 IST" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- byGmail -->
-        <test-method signature="byFacebook()[pri:2, instance:groupingInTestng.login@38425407]" started-at="2025-06-04T19:21:04 IST" name="byFacebook" finished-at="2025-06-04T19:21:04 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- byFacebook -->
-        <test-method signature="byAppleID()[pri:3, instance:groupingInTestng.login@38425407]" started-at="2025-06-04T19:21:04 IST" name="byAppleID" finished-at="2025-06-04T19:21:04 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- byAppleID -->
-      </class> <!-- groupingInTestng.login -->
-    </test> <!-- Test -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- PageObjectDemo.test_Login -->
+    </test> <!-- pageObjectdemo -->
   </suite> <!-- Suite -->
 </testng-results>

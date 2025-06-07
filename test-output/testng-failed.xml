@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dependOn.DependOn">
+      <class name="PageObjectDemo.test_Login">
         <methods>
-          <include name="search"/>
-          <include name="open"/>
-          <include name="Advancesearch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testLogin"/>
         </methods>
-      </class> <!-- dependOn.DependOn -->
+      </class> <!-- PageObjectDemo.test_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
